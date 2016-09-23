@@ -48,6 +48,7 @@ public class MainWearActivity extends WearableActivity {
         super.onExitAmbient();
     }
 
+    @SuppressWarnings("deprecation")
     private void updateDisplay() {
         if (isAmbient()) {
             mContainerView.setBackgroundColor(getResources().getColor(android.R.color.black));

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TODOCheck</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_a_new_item">Add a new item&#8230;</string>
+    <string name="done">Done</string>
+    <string name="blank">blank?</string>
 </resources>
