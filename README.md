@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/alxarguello/TODOCheck/media/device-2016-09-26-153656.gif' title='Video Walk through' width='' alt='Video Walk through' />
+<img src='https://github.com/alxarguello/TODOCheck/tree/master/media/device-2016-09-26-153656.gif' title='Video Walk through' width='' alt='Video Walk through' />
 
 ## Notes
 
