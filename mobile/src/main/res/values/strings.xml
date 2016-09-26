@@ -1,7 +1,19 @@
 <resources>
-    <string name="app_name">TODOCheck</string>
+    <string name="app_name">TODO &amp; Check</string>
     <string name="add_item">Add Item</string>
     <string name="add_a_new_item">Add a new item&#8230;</string>
+    <string name="edit_item">Editing item&#8230;</string>
     <string name="done">Done</string>
     <string name="blank">blank?</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="not_done">Not done</string>
+    <string name="sure_delete_item">Are you sure you want to delete this item?</string>
+    <string name="deleting">Deleting</string>
+    <string name="extra_notes">extra notes</string>
+    <string name="due_date">Due Date</string>
+    <string name="isItDone">is it Done?</string>
+    <string name="isDone">is Done</string>
+    <string name="no_due_date">no due date</string>
+    <string name="due_on">"Due on - "</string>
+    <string name="no_data_available">There\'s no notes yet, lets add some!!</string>
 </resources>
