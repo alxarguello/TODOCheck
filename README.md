@@ -3,11 +3,11 @@ CodePath requirement, this app is intended to be a POC of a TODO List
 *****************************************************************************************************************************
 # Pre-work - *TODOCheck*
 
-**Name of your app** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**TODO & Check** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
-Submitted by: **Your Name Here**
+Submitted by: **Alejandro Ramirez Arguello**
 
-Time spent: **X** hours spent in total
+Time spent: **17** hours approximately
 
 ## User Stories
 
@@ -20,11 +20,11 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [x] Persist the todo items [into SQLite](http://guides.codepath.com/android/Persisting-Data-to-the-Device#sqlite) instead of a text file
-* [ ] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
-* [ ] Add support for completion due dates for todo items (and display within listview item)
-* [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
+* [x] Improve style of the todo items in the list [using a custom adapter](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView)
+* [x] Add support for completion due dates for todo items (and display within listview item)
+* [x] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
 * [ ] Add support for selecting the priority of each todo item (and display in listview item)
-* [ ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+* [x] Tweak the style improving the UI / UX, play with colors, images or backgrounds
 
 The following **additional** features are implemented:
 
@@ -34,13 +34,19 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='https://github.com/alxarguello/TODOCheck/media/device-2016-09-26-153656.gif' title='Video Walk through' width='' alt='Video Walk through' />
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+
+Certainly making a UI that is catchy to the eye it's a challenge, UX it's always a complex thing, but I think that, always asking myself "Is this something I'd like to see in an app?" or "Does this actually make sense whenever I could use this feature" is helpful,
+I mean, you would always have room for improvement but at least be self conscious that your product could be useful to someone else and it has to respond and do what is expected.
+ 
+I never use DBFlow before but I read quite a bit about it, but it's such an easy tool that I'm so pleased the way it result at the end
+  
+And finally catching up with all the UI patterns and new APIs that I haven't had the opportunity to test and try before.  
 
 ## License
 
