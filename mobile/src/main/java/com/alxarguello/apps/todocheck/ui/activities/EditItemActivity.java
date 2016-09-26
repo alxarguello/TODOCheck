@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-import com.alxarguello.apps.obj.TodoItem;
+import com.alxarguello.apps.todocheck.obj.TodoItem;
 import com.alxarguello.apps.todocheck.R;
 
 /**
@@ -22,12 +22,12 @@ public class EditItemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_edit_item);
         itemToEdit = getIntent().getParcelableExtra(TodoItem.TODO_ITEM_TAG);
         editedText = (EditText) findViewById(R.id.editedText);
-        editedText.setText(itemToEdit.getComment());
+        editedText.setText(itemToEdit.getTitle());
     }
 
     public void onDoneClick(View v) {
         String updatedText = editedText.getText().toString();
-        itemToEdit.setComment(updatedText);
+        itemToEdit.setTitle(updatedText);
         itemToEdit.save();
         finish();
     }
